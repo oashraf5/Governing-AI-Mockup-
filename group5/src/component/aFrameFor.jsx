@@ -6,3 +6,15 @@ class Aframefor extends Component {
         super(props);
     }
 }
+
+render(
+    
+        <div className="overall-page">
+            {/* <nav>NAVIGATION BAR COMMING SOON</nav> */}
+
+        </div>
+)
+
+
+
+export default Aframefor
