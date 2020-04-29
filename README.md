@@ -4,17 +4,17 @@ The aforementioned report depicts examples or Artificial Intelligence being used
 ___
 
 #### What is the purpose of the website:
-<br />
+
 To summarize and highlight impacting information of this article. 
-<br />
+
 #### Who is your audience:
-<br />
+
 Our target audience is professionals in the IT industry working with or creating artificial intelligence. 
-<br />
+
 #### What features make your website unique: 
-<br />
+
 #### Teammates and tasks they were responsible for: 
-<br />
+
 Visa: 
 <br />
 Omar: Home/landing page
