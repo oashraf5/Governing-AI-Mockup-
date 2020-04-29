@@ -5,7 +5,7 @@ ___
 Visa: 
 <br />
 
-Omar: Home page 
+Omar: Home/landing page 
 <br />
 
 Brian:
