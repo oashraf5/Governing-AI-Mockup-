@@ -1,2 +1,3 @@
-import react from react 
+import React, {Component} from 'react' 
+
 
