@@ -3,8 +3,14 @@
 ___
 
 Visa: 
+<br />
+
 Omar:
+<br />
+
 Brian:
+<br />
+
 Rocio: Wireframe, README, "A HUMAN RIGHTS FRAME FOR AI RISKS AND HARMS" Page 
 
 
