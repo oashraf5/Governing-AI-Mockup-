@@ -1,4 +1,12 @@
-# Governing-AI-Mockup
+# Governing Artificial Intelligence: Upholding Human Rights & Dignity  
+### Mark Latonero
+___
+
+Visa: 
+Omar:
+Brian:
+Rocio: Wireframe, README, "A HUMAN RIGHTS FRAME FOR AI RISKS AND HARMS" Page 
+
 
 ## Wireframe
 Landing page:
