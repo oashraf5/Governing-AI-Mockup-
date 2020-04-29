@@ -1,14 +1,15 @@
-import React, {Component} from 'react' 
+import React, {Component} from 'react';
+import Aframeforstyling from './../Aframefor-styling.css';
 
 
 class Aframefor extends Component {
-    constructor(props) {
-        super(props);
-    }
-}
+//     constructor(props) {
+//         super(props);
+//     }
+// }
 
-render(
-    
+render() {
+    return (
         <div className="overall-page">
             {/* <nav>NAVIGATION BAR COMMING SOON</nav> */}
 
@@ -18,13 +19,16 @@ render(
                 </article>
 
                 <div>
-                    <img className="image" src='#'> </img>
+                    <img className="image" src='#'/>
                 </div>
             </div>
 
         </div>
-)
+    );
+}
+}
 
 
 
-export default Aframefor
+
+ export default Aframefor
