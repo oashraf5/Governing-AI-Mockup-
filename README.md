@@ -17,7 +17,7 @@ Teammates and tasks they were responsible for:
 <br />
 Visa: 
 <br />
-Omar:Omar: Home/landing page
+Omar: Home/landing page
 <br />
 Brian:
 <br />
