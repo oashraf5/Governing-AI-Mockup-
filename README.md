@@ -19,7 +19,7 @@ Visa:
 <br />
 Omar: Home/landing page
 <br />
-Brian:
+Brian: Stakeholders page
 <br />
 Rocio: Wireframe, README, "A HUMAN RIGHTS FRAME FOR AI RISKS AND HARMS" Page 
 
