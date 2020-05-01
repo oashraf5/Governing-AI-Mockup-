@@ -27,10 +27,21 @@
 
   #hambtn{
 
-    position: fixed;;
+    position: fixed;
     margin:0;
-    left:0;
-
+    left:5px;
+    width: 100px;
+    height:100px;
+    
   }
+
+  #close{
+      font-size: xx-large;
+      position: absolute;
+    top:330px;
+    right:80px;
+    
+  }
+  
  
   

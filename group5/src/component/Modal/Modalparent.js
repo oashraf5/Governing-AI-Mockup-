@@ -4,6 +4,7 @@ import './Modal.css'
 import {  BrowserRouter as Router, Route, Link,Switch } from "react-router-dom";
 import Aframefor from '../aFrameFor'
 import { Redirect } from "react-router-dom";
+import hambtn from './Assets/menu-icon.png'
 
 
 export default class Modal extends Component{
@@ -11,25 +12,23 @@ export default class Modal extends Component{
         super(props)
 this.state={
 
-    hideflag :"block",
+    clsName :"none",
     show:false,
-    aframe:false,
     expand:'modal-main',
-    redirect:'/Aframefor',
-    rede:false
+  
+    
    
 }}
 
 showModal = () => {
     this.setState({ show: true });
-    this.setState({ hideflag: "block" });
+    this.setState({ clsName: "block" });
     this.setState({ expand: "modal-main" });
   };
 
 hide=(e)=>{
-    this.setState({ rede:true}) 
-    // <Redirect to={this.state.redirect} />
-    // this.setState({hideflag: "none"});
+    
+this.setState({clsName: "none"});
 }
     handleexpand=(e)=>{
         this.setState({show:false});  
@@ -41,34 +40,36 @@ render(){
 
    
     return (
-      <div>
-
-          {this.state.rede==true &&
-          <Router>
-          <Redirect to={this.state.redirect} />
-          </Router>}
-     
-      <div className={this.state.expand} style={{display:this.state.hideflag}}>
+      
+<div>
+          
+      <div className={this.state.expand} style={{display:this.state.clsName}}>
       {this.state.show==true && 
 <div>
-  <button onClick={this.hide} >close</button>
-  
-        <button onClick={this.handleexpand}>expand</button>
-        
-        <Router>
+  <button id="close" onClick={this.hide} >X</button>
+<Router>
         <Link to="/App/Aframefor" onClick={this.handleexpand}>Aframefor</Link>
         <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
-        <Switch style={{display:"none"}}>
+        <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
+        <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
+</Router>
+</div>}
+{ this.state.expand=="modal" &&
+<Router>
+        <Switch >
         <Route exact path="/App/Aframefor"><Aframefor /></Route>
         </Switch>
-        </Router>
-        </div>}
+        </Router>}
+    
+        </div>
         
-        </div>
+      
 <div>
-        <button id="hambtn" onClick={this.showModal} >ShowModal</button> 
+    <img id="hambtn" src={hambtn} onClick={this.showModal} alt="img not found"/>
+      
       </div>
-        </div>
+       
+       </div>
     );
     }}
 
