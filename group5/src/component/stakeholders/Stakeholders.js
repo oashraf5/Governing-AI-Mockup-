@@ -6,7 +6,18 @@ export class Stakeholders extends Component {
         return (
             
                 <div className="bubbles">
-                    <div id="first-bubble"></div>
+                    <div id="first-bubble">
+                        <p>BUSINESS</p>
+                    </div>
+                    <div id="second-bubble">
+                        <p>CIVIL SOCIETY</p>
+                    </div>
+                    <div id="third-bubble">
+                        <p>GOVERNMENTS</p>
+                    </div>
+                    <div id="fourth-bubble">
+                        <p>U.N.</p>
+                    </div>
                 </div>
                       
         )
