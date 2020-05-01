@@ -1,0 +1,36 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgb(163, 83, 83);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: rgb(163, 83, 83);
+    width: 60%;
+    height: 100%;
+    top:0;
+    left:0;
+    /* transform: translate(-50%,-50%); */
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  #hambtn{
+
+    position: fixed;;
+    margin:0;
+    left:0;
+
+  }
+ 
+  

@@ -1,0 +1,25 @@
+class Modalparent extends Component {
+  state = { show: false };
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
+  render() {
+    return (
+      <main>
+        <h1>React Modal</h1>
+        { this.state.show==true &&
+        <Modal  />}
+          
+        <button type="button" onClick={this.showModal}>
+          open
+        </button>
+      </main>
+    );
+  }
+}
