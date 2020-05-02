@@ -5,6 +5,7 @@ import {  BrowserRouter as Router, Route, Link,Switch } from "react-router-dom";
 import Aframefor from '../aFrameFor'
 import { Redirect } from "react-router-dom";
 import hambtn from './Assets/menu-icon.png'
+import Stakeholders from '../stakeholders/Stakeholders'
 
 
 export default class Modal extends Component{
@@ -45,19 +46,22 @@ render(){
           
       <div className={this.state.expand} style={{display:this.state.clsName}}>
       {this.state.show==true && 
-<div>
+<div >
   <button id="close" onClick={this.hide} >X</button>
+  <div className="links">
 <Router>
-        <Link to="/App/Aframefor" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Afra" onClick={this.handleexpand}>Aframefor</Link>
+        <Link to="/Home" className="link" onClick={this.handleexpand}>Home</Link>
+        <Link to="/Aframefor" className="link" onClick={this.handleexpand}>Aframefor</Link>
+        <Link to="/Afra" className="link" onClick={this.handleexpand}>Aframefor</Link>
+        <Link to="/Afra" className="link" onClick={this.handleexpand}>Stakeholders</Link>
 </Router>
+</div>
 </div>}
 { this.state.expand=="modal" &&
 <Router>
         <Switch >
         <Route exact path="/App/Aframefor"><Aframefor /></Route>
+        <Route exact path="/App/Aframefor"><Stakeholders /></Route>
         </Switch>
         </Router>}
     

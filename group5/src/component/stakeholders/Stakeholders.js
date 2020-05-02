@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import {Route,Switch, Link , BrowserRouter as Router} from 'react-router-dom';
-import '../App.css'
+// import '../App.css'
 export class Stakeholders extends Component {
     render() {
         return (
