@@ -6,6 +6,7 @@ import Aframefor from '../aFrameFor'
 import { Redirect } from "react-router-dom";
 import hambtn from './Assets/menu-icon.png'
 import Stakeholders from '../stakeholders/Stakeholders'
+import Conclusion from './Conclusion'
 
 
 export default class Modal extends Component{
@@ -52,16 +53,17 @@ render(){
 <Router>
         <Link to="/Home" className="link" onClick={this.handleexpand}>Home</Link>
         <Link to="/Aframefor" className="link" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Afra" className="link" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Afra" className="link" onClick={this.handleexpand}>Stakeholders</Link>
+        <Link to="/Conclusion" className="link" onClick={this.handleexpand}>Conclusion</Link>
+        <Link to="/Stakeholders" className="link" onClick={this.handleexpand}>Stakeholders</Link>
 </Router>
 </div>
 </div>}
 { this.state.expand=="modal" &&
 <Router>
         <Switch >
-        <Route exact path="/App/Aframefor"><Aframefor /></Route>
-        <Route exact path="/App/Aframefor"><Stakeholders /></Route>
+        <Route exact path="/Aframefor"><Aframefor /></Route>
+        <Route exact path="/Stakeholders"><Stakeholders /></Route>
+        <Route exact path="/Conclusion"><Conclusion /></Route>
         </Switch>
         </Router>}
     
