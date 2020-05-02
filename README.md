@@ -15,7 +15,7 @@ Our target audience is professionals in the IT industry working with or creating
 
 #### Teammates and tasks they were responsible for: 
 
-Visa: 
+Visa: Modal,Introduction & Conclusion page
 <br />
 Omar: Home/landing page
 <br />
