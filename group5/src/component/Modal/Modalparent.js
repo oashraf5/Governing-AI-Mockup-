@@ -6,6 +6,7 @@ import Aframefor from '../aFrameFor'
 import { Redirect } from "react-router-dom";
 import hambtn from './Assets/menu-icon.png'
 import Stakeholders from '../stakeholders/Stakeholders'
+import Introduction from './Introduction'
 import Conclusion from './Conclusion'
 
 
@@ -52,9 +53,10 @@ render(){
   <div className="links">
 <Router>
         <Link to="/Home" className="link" onClick={this.handleexpand}>Home</Link>
+        <Link to="/Introduction" className="link" onClick={this.handleexpand}>Introduction</Link>
         <Link to="/Aframefor" className="link" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Conclusion" className="link" onClick={this.handleexpand}>Introduction</Link>
         <Link to="/Stakeholders" className="link" onClick={this.handleexpand}>Stakeholders</Link>
+        <Link to="/Conclusion" className="link" onClick={this.handleexpand}>Conclusion</Link>
 </Router>
 </div>
 </div>}

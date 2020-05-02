@@ -84,7 +84,7 @@ height:100%;
 .hr{
 
     width:25%;
-    margin: 10em 3em;
+    margin: 10em 13em;
 }
 .hr hr {
     display: block;
@@ -100,6 +100,23 @@ height:100%;
     color:green;
     text-align: justify ;
 }
-  
+.list{
+    display:flex;
+    flex-direction: column;
+}
+  .list ul li p{
+    color:black;
+    text-align: justify ;
+    
+
+  }
+  .list{
+    position: absolute;
+ top:50px;
+    right:10em;
+    width:40%;
+    height:60%; 
+
+}
  
   
