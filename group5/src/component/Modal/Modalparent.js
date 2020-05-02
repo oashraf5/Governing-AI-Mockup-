@@ -53,7 +53,7 @@ render(){
 <Router>
         <Link to="/Home" className="link" onClick={this.handleexpand}>Home</Link>
         <Link to="/Aframefor" className="link" onClick={this.handleexpand}>Aframefor</Link>
-        <Link to="/Conclusion" className="link" onClick={this.handleexpand}>Conclusion</Link>
+        <Link to="/Conclusion" className="link" onClick={this.handleexpand}>Introduction</Link>
         <Link to="/Stakeholders" className="link" onClick={this.handleexpand}>Stakeholders</Link>
 </Router>
 </div>
