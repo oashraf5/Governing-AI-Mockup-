@@ -6,16 +6,17 @@ class App extends React.Component{
         super(props);
         this.state={
         items:[],
-        currentItems:{
+        currentitems:{
             text:'',
             key:''
         }
     }
+}
 
     render(){
         return(
             <form>
-                <input type="text" placeholder="Comment here"></input>
+                <input type="text" value="{this.state.items}"></input>
 
                 <button type="submit">Submit</button>
             </form>
