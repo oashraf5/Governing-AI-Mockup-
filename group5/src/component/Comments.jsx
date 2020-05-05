@@ -7,9 +7,11 @@ class App extends React.Component{
     render(){
         return(
             <form>
-                <input>
+                <input type="text">
                 
                 </input>
+
+                <button type="submit"></button>
             </form>
 
         );
