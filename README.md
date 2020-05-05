@@ -1,16 +1,26 @@
 # Governing Artificial Intelligence: Upholding Human Rights & Dignity  
 ### Mark Latonero
+The aforementioned report depicts examples or Artificial Intelligence being used, misused, and response from corporate and political leaders.
 ___
 
-Visa: 
-<br />
+#### What is the purpose of the website:
 
-Omar:
-<br />
+To summarize and highlight impacting information of this article. 
 
-Brian:
-<br />
+#### Who is your audience:
 
+Our target audience is professionals in the IT industry working with or creating artificial intelligence. 
+
+#### What features make your website unique: 
+
+#### Teammates and tasks they were responsible for: 
+
+Visa: Modal,Introduction & Conclusion page
+<br />
+Omar: Home/landing page
+<br />
+Brian: Stakeholders page
+<br />
 Rocio: Wireframe, README, "A HUMAN RIGHTS FRAME FOR AI RISKS AND HARMS" Page 
 
 
