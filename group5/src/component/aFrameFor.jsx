@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import Aframeforstyling from './../Aframefor-styling.css';
-
+// import Comments from "./Comments"
 
 class Aframefor extends Component {
-//     constructor(props) {
-//         super(props);
-//     }
-// }
+    constructor(props) {
+        super(props);
+    }
+}
 
-render() {
+render(){
     return (
         <div className="overall-page">
             {/* <nav>NAVIGATION BAR COMMING SOON</nav> */}
@@ -33,16 +33,13 @@ render() {
                 </div>
 
                 <div className="image">
-                    <img  src='#'/>
+                    <img  src='https://www.ledgerinsights.com/wp-content/uploads/2019/03/artificial-intelligence-AI.jpg'/>
                 </div>
 
-                <form id="comment-section">
-
-                </form>
+               {/* <Comments/> */}
 
         </div>
     );
-}
 }
 
 
